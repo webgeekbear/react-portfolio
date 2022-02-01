@@ -1,23 +1,31 @@
 import React from "react";
 
-function Navigation() {
+function Navigation(props) {
+    const {
+        menuEntries=[],
+        setCurrentMenuEntry,
+        currentMenuEntry
+    } = props;
+
     return (
         <nav>
             <ul className="flex-row">
-                <li className="mx-2">
-                    <a href="#about">
-                        About me
-                    </a>
-                </li>
-                <li className="mx-1">
-                    <span>Portfolio</span>
-                </li>
-                <li className="mx-1">
-                    <span>Contact</span>
-                </li>
-                <li className="mx-1">
-                    <span>Resume</span>
-                </li>
+                {menuEntries.map((menuEntry) =>
+                    <li
+                        className={`mx-1 ${
+                            currentMenuEntry === menuEntry && 'navActive'
+                        }`}
+                        key={menuEntry}
+                    >
+                        <span 
+                            onClick={() => {
+                                setCurrentMenuEntry(menuEntry)
+                            }}
+                        >
+                            {menuEntry}
+                        </span>
+                    </li>
+                )}
             </ul>
         </nav>
     )

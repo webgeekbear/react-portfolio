@@ -1,16 +1,22 @@
 import React from "react";
 import Navigation from "../Navigation";
 
-function Header() {
+function Header(props) {
+    const {
+        menuEntries=[],
+        setCurrentMenuEntry,
+        currentMenuEntry
+    } = props;
+
     return (
         <header>
             <h2>
                 David Barron
+                {currentMenuEntry}
             </h2>
-            <Navigation>
-            </Navigation>
+            
         </header>
-    )
+    );
 }
 
 export default Header;
