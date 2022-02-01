@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Navigation(props) {
     const {
@@ -6,6 +6,10 @@ function Navigation(props) {
         setCurrentMenuEntry,
         currentMenuEntry
     } = props;
+
+    useEffect(() => {
+        document.title = currentMenuEntry;
+    }, [currentMenuEntry]);
 
     return (
         <nav>
