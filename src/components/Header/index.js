@@ -12,11 +12,15 @@ function Header(props) {
         <header>
             <h2>
                 David Barron
-                {currentMenuEntry}
             </h2>
-            
+            <Navigation
+                menuEntries={menuEntries}
+                setCurrentMenuEntry={setCurrentMenuEntry}
+                currentMenuEntry={currentMenuEntry}
+            >
+            </Navigation>
         </header>
-    );
+    )
 }
 
 export default Header;

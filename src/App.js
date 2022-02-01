@@ -2,22 +2,21 @@ import React, { useState } from "react";
 import './App.css';
 import About from "./components/About";
 import Header from "./components/Header";
-import Navigation from "./components/Navigation"
 import Portfolio from "./components/Portfolio";
 
 function App() {
-  const [menuEntries] = useState([{ name: "About me" }, "Portfolio", "Contact", "Resume"]);
+  const [menuEntries] = useState(["About me", "Portfolio", "Contact", "Resume"]);
 
-  const [currentMenuEntry, setCurrentMenuEntry] = useState(menuEntries[0].name);
+  const [currentMenuEntry, setCurrentMenuEntry] = useState(menuEntries[0]);
   
   return (
-    <div>{currentMenuEntry}
-      <Navigation>
-        
+    <div>
+      <Header        
         menuEntries={menuEntries}
         setCurrentMenuEntry={setCurrentMenuEntry}
         currentMenuEntry={currentMenuEntry}
-      </Navigation>
+      >
+      </Header>
       <main>
         <Portfolio></Portfolio>
         <About></About>
