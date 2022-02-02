@@ -3,6 +3,7 @@ import './App.css';
 import About from "./components/About";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
+import ContactForm from "./components/Contact";
 
 function App() {
   const [menuEntries] = useState(["About me", "Portfolio", "Contact", "Resume"]);
@@ -18,8 +19,15 @@ function App() {
       >
       </Header>
       <main>
-        <Portfolio></Portfolio>
-        <About></About>
+        {currentMenuEntry === "Contact" && (
+          <ContactForm></ContactForm>
+        )}
+        {currentMenuEntry === "Portfolio" && (
+          <Portfolio></Portfolio>
+        )}
+        {currentMenuEntry === "About me" && (
+          <About></About>
+        )}
       </main>
     </div>
   );
