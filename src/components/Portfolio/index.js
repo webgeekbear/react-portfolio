@@ -1,24 +1,49 @@
 import React from "react";
-import photo from "../../assets/gallery/Pregame.gif";
+import Project from "../Project";
 
 function Portfolio(props) {
-  const currentCategory = {
-    name: "commercial",
-    description:
-      "Photos of grocery stores, food trucks, and other commercial projects",
-  };
   return (
     <section>
-      <h1>{currentCategory.name}</h1>
-      <p>{currentCategory.name}</p>
       <div className="flex-row">
-          <img
-            src={photo}
-            alt="Commercial Example"
-            className="img-thumbnail mx-1"
-          />
+        <Project
+          image={require("../../assets/gallery/Pregame.gif")}
+          title="Pregame"
+          appLink="https://tbellenger.github.io/playlist/"
+          repoLink="https://github.com/webgeekbear/playlist"
+        ></Project>
+        <Project
+          image={require("../../assets/gallery/emergency-center-usage.gif")}
+          title="Emergency Center"
+          appLink="https://emergency-center.herokuapp.com/"
+          repoLink="https://github.com/webgeekbear/Emergency-Center"
+        ></Project>
+        <Project
+          image={require("../../assets/gallery/taskinator.png")}
+          title="Taskinator"
+          appLink="https://webgeekbear.github.io/taskinator/"
+          repoLink="https://github.com/webgeekbear/taskinator"
+        ></Project>
+        <Project
+          image={require("../../assets/gallery/weather-dashboard.png")}
+          title="Weather dashboard"
+          appLink="https://webgeekbear.github.io/weather-dashboard/"
+          repoLink="https://github.com/webgeekbear/weather-dashboard"
+        ></Project>
+        <Project
+          image={require("../../assets/gallery/taskmaster-pro.png")}
+          title="Taskmaster Pro"
+          appLink="https://webgeekbear.github.io/taskmaster-pro/"
+          repoLink="https://github.com/webgeekbear/taskmaster-pro"
+        ></Project>
+        <Project
+          image={require("../../assets/gallery/scheduler.png")}
+          title="Scheduler"
+          appLink="https://webgeekbear.github.io/scheduler/"
+          repoLink="https://github.com/webgeekbear/scheduler"
+        ></Project>
       </div>
     </section>
   );
 }
+
 export default Portfolio;
