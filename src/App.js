@@ -4,6 +4,7 @@ import About from "./components/About";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   const [menuEntries] = useState(["About me", "Portfolio", "Contact", "Resume"]);
@@ -27,6 +28,9 @@ function App() {
         )}
         {currentMenuEntry === "About me" && (
           <About></About>
+        )}
+        {currentMenuEntry === "Resume" && (
+          <Resume></Resume>
         )}
       </main>
     </div>
