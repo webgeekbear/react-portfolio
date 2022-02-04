@@ -1,17 +1,15 @@
 # React portfolio
 ![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)
-%20 
 ## Description
-Portfolio of my work
+Portfolio of my web development work.
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+* [Technologies](#technologies)
+* [Screenshot](#screenshot)
 
 ## Installation
 npm install
@@ -22,16 +20,8 @@ npm start
 ## License
 Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
-## Contributing
-a
+## Technologies
+JavaScript, React
 
-## Tests
-a
-
-## Questions
-Please contact me if there are any questions.
-
-GitHub profile: https://github.com/a
-
-email address: a
-
+## Screenshot
+![screenshot](./src/assets/screenshot/React-portfolio.png)
