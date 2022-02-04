@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/photo-port/static/css/main.03b5ecab.css",
-    "main.js": "/photo-port/static/js/main.e08bc32f.js",
-    "static/js/787.a2cb61a6.chunk.js": "/photo-port/static/js/787.a2cb61a6.chunk.js",
-    "static/media/emergency-center-usage.gif": "/photo-port/static/media/emergency-center-usage.7a63dbfaef4834255092.gif",
-    "static/media/Pregame.gif": "/photo-port/static/media/Pregame.058448930ccc7ce000ba.gif",
-    "static/media/weather-dashboard.png": "/photo-port/static/media/weather-dashboard.94734e5e72e245e8b14c.png",
-    "static/media/taskinator.png": "/photo-port/static/media/taskinator.2c9162efde7c19e9e55a.png",
-    "static/media/scheduler.png": "/photo-port/static/media/scheduler.b56d90ad19623477f3e4.png",
-    "static/media/taskmaster-pro.png": "/photo-port/static/media/taskmaster-pro.fbd4460fe126b3cfc831.png",
-    "static/media/myResume.pdf": "/photo-port/static/media/myResume.810f5eec126ef4f6665e.pdf",
-    "static/media/WebGeekBear.png": "/photo-port/static/media/WebGeekBear.2ff651c5e67cdf36b1eb.png",
-    "index.html": "/photo-port/index.html",
-    "main.03b5ecab.css.map": "/photo-port/static/css/main.03b5ecab.css.map",
-    "main.e08bc32f.js.map": "/photo-port/static/js/main.e08bc32f.js.map",
-    "787.a2cb61a6.chunk.js.map": "/photo-port/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.03b5ecab.css",
+    "main.js": "/react-portfolio/static/js/main.3596f5a5.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/emergency-center-usage.gif": "/react-portfolio/static/media/emergency-center-usage.7a63dbfaef4834255092.gif",
+    "static/media/Pregame.gif": "/react-portfolio/static/media/Pregame.058448930ccc7ce000ba.gif",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.94734e5e72e245e8b14c.png",
+    "static/media/taskinator.png": "/react-portfolio/static/media/taskinator.2c9162efde7c19e9e55a.png",
+    "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.b56d90ad19623477f3e4.png",
+    "static/media/taskmaster-pro.png": "/react-portfolio/static/media/taskmaster-pro.fbd4460fe126b3cfc831.png",
+    "static/media/myResume.pdf": "/react-portfolio/static/media/myResume.810f5eec126ef4f6665e.pdf",
+    "static/media/WebGeekBear.png": "/react-portfolio/static/media/WebGeekBear.2ff651c5e67cdf36b1eb.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.03b5ecab.css.map": "/react-portfolio/static/css/main.03b5ecab.css.map",
+    "main.3596f5a5.js.map": "/react-portfolio/static/js/main.3596f5a5.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03b5ecab.css",
-    "static/js/main.e08bc32f.js"
+    "static/js/main.3596f5a5.js"
   ]
 }
