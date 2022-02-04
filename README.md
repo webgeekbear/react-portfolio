@@ -10,6 +10,7 @@ Portfolio of my web development work.
 * [License](#license)
 * [Technologies](#technologies)
 * [Screenshot](#screenshot)
+* [Deployment](#deployment)
 
 ## Installation
 npm install
@@ -25,3 +26,6 @@ JavaScript, React
 
 ## Screenshot
 ![screenshot](./src/assets/screenshot/React-portfolio.png)
+
+## Deployment
+This site is deployed at http://webgeekbear.github.io/photo-port.
