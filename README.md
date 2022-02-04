@@ -28,4 +28,4 @@ JavaScript, React
 ![screenshot](./src/assets/screenshot/React-portfolio.png)
 
 ## Deployment
-This site is deployed at http://webgeekbear.github.io/photo-port.
+This site is deployed at http://webgeekbear.github.io/react-portfolio.
