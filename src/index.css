@@ -4,12 +4,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #f3a847;
-  --tertiary: #b12704;
-  --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
+  --primary: #0096c7;
+  --secondary: #48cae4;
+  --tertiary: #00b4d8;
+  --light: #bdedf6;
+  --dark: #023e8a;
+  --darker: #0096c7;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
