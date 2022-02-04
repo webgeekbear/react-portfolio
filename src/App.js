@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   const [menuEntries] = useState(["About me", "Portfolio", "Contact", "Resume"]);
@@ -33,6 +34,7 @@ function App() {
           <Resume></Resume>
         )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
