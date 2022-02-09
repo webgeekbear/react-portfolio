@@ -3,9 +3,11 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
+  /*
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
+
   const { name, email, message } = formState;
 
   const handleSubmit = (e) => {
@@ -31,12 +33,12 @@ function ContactForm() {
         setErrorMessage('');
       }
     }
-  };
+  }; */
 
   return (
     <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <h3 data-testid="h1tag">Contact me</h3>
+      {/*<form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -55,7 +57,7 @@ function ContactForm() {
           </div>
         )}
         <button data-testid="button" type="submit">Submit</button>
-      </form>
+        </form> */}
       <div>Phone: 916-752-9927</div>
       <div>Email: davidbarron404@gmail.com</div>  
     </section>
