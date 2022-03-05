@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.03b5ecab.css",
-    "main.js": "/react-portfolio/static/js/main.28dbdb90.js",
+    "main.js": "/react-portfolio/static/js/main.a33e4cbf.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/emergency-center-usage.gif": "/react-portfolio/static/media/emergency-center-usage.7a63dbfaef4834255092.gif",
     "static/media/Pregame.gif": "/react-portfolio/static/media/Pregame.058448930ccc7ce000ba.gif",
+    "static/media/screenshot-property-help-desk.png": "/react-portfolio/static/media/screenshot-property-help-desk.f2f072d71f9399b11b2a.png",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.94734e5e72e245e8b14c.png",
     "static/media/taskinator.png": "/react-portfolio/static/media/taskinator.2c9162efde7c19e9e55a.png",
     "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.b56d90ad19623477f3e4.png",
     "static/media/taskmaster-pro.png": "/react-portfolio/static/media/taskmaster-pro.fbd4460fe126b3cfc831.png",
-    "static/media/myResume.pdf": "/react-portfolio/static/media/myResume.810f5eec126ef4f6665e.pdf",
+    "static/media/myResume.pdf": "/react-portfolio/static/media/myResume.f62d2bde0ec1a3ca9083.pdf",
     "static/media/WebGeekBear.png": "/react-portfolio/static/media/WebGeekBear.2ff651c5e67cdf36b1eb.png",
     "index.html": "/react-portfolio/index.html",
     "main.03b5ecab.css.map": "/react-portfolio/static/css/main.03b5ecab.css.map",
-    "main.28dbdb90.js.map": "/react-portfolio/static/js/main.28dbdb90.js.map",
+    "main.a33e4cbf.js.map": "/react-portfolio/static/js/main.a33e4cbf.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03b5ecab.css",
-    "static/js/main.28dbdb90.js"
+    "static/js/main.a33e4cbf.js"
   ]
 }
