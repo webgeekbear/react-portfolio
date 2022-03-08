@@ -18,6 +18,12 @@ function Portfolio(props) {
           repoLink="https://github.com/webgeekbear/Emergency-Center"
         ></Project>
         <Project
+        image={require("../../assets/gallery/screenshot-property-help-desk.png")}
+        title="The help desk for property managers"
+        appLink="https://rg-the-help-desk.herokuapp.com/"
+        repoLink="https://github.com/webgeekbear/the-help-desk"
+      ></Project>
+        <Project
           image={require("../../assets/gallery/taskinator.png")}
           title="Taskinator"
           appLink="https://webgeekbear.github.io/taskinator/"
